@@ -47,6 +47,27 @@ hook global WinSetOption filetype=markdown %{
 # Změna nebo vypnutí clippyho -> clippy, dilbert, cat, a none.
 set-option global ui_options terminal_assistant=cat 
 
+#ESLint setup lint (javascript)
+hook global WinSetOption filetype=javascript %{
+  set buffer lintcmd 'eslint --config .eslintrc.js --format=node_modules/eslint-formatter-kakoune'
+  lint-enable
+  lint
+}
+
+# HTML setup lint
+hook global WinSetOption filetype=html %{
+    set-option window lintcmd "tidy -e --gnu-emacs yes --quiet yes 2>&1"
+}
+
+# Mrkdown setup lint
+ hook global WinSetOption filetype=markdown %{
+    set-option window lintcmd "proselint"
+}
+
+# CSS setup lint
+hook global WinSetOption filetype=css %{
+    set-option window lintcmd "npx stylelint --formatter unix --stdin-filename='%val{buffile}'"
+}
 
 
 eval %sh{kak-lsp --kakoune -s $kak_session}  # Not needed if you load it with plug.kak.
@@ -119,7 +140,31 @@ plug "gustavo-hms/luar" %{
   require-module luar
 }
 
+# Barevné závorky
+plug 'jjk96/kakoune-rainbow'
+ 
+plug "occivink/kakoune-snippets"
+
+dZobrazuje strukturu souboru
+plug "andreyorst/tagbar.kak" defer "tagbar" %{
+    set-option global tagbar_sort false
+    set-option global tagbar_size 40
+    set-option global tagbar_display_anon false
+} config %{
+    # if you have wrap highlighter enamled in you configuration
+    # files it's better to turn it off for tagbar, using this hook:
+    hook global WinSetOption filetype=tagbar %{
+        remove-highlighter window/wrap
+        # you can also disable rendering whitespaces here, line numbers, and
+        # matching characters
+    }
+}
+
+
 # themes
 plug "secondary-smiles/kakoune-themes" theme config %{
   colorscheme gruvbox-dark 
   }
+
+
+  
