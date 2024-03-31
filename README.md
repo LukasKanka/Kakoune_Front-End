@@ -116,14 +116,6 @@ npx live-server
 
 👉 Kolik Kakoune stojí? -> Nic, Kakoune je zdarma.
 
-## Registrace
-
-Jméno: 
-
-Heslo: 
-
-Potvrďte heslo: 
-
 ## Kontakty:
 
 👉 [Kakoune community Telegram skupina](https://t.me/+RlXM8oEZ8TJkMWVk)
