@@ -58,7 +58,9 @@
 
 [markdoc-ls](https://github.com/markdoc-extra/markdoc-ls)
 
-👉 A také si doinstaluj tento server pro správnou funkčnost HTML v LSP příkazem: **npm install -g vscode-{html,css,json}-languageserver-bin** .
+👉 A také si doinstaluj tento server pro správnou funkčnost HTML v LSP příkazem:
+
+npm install -g vscode-{html,css,json}-languageserver-bin
 
 👉 Dále si v Node.js nainstaluj [Live-server](https://www.npmjs.com/package/live-server).
 
@@ -115,6 +117,8 @@ npx live-server
 ## Otázky a odpovědi:
 
 👉 Kolik Kakoune stojí? -> Nic, Kakoune je zdarma.
+
+
 
 ## Kontakty:
 
