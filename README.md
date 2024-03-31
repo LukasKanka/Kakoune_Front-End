@@ -2,9 +2,9 @@
 
 👉 Kakoune Front-End Power postavený na [LSP](https://github.com/kakoune-lsp/kakoune-lsp).
 
-👉 [Kakoune](http://kakoune.org/) je modální editor pro [Linux](http://www.linux.cz/) a [macOS](https://cs.wikipedia.org/wiki/MacOS) jako je třeba [Vim](https://www.vim.org/) či [Neovim](https://neovim.io/). . Z Kakoune vychází také jeden velmi oblíbený modální editor [Helix-editor](https://helix-editor.com/). Jak Kakoune, tak Helix se od Vim a Neovim liší v ovládání, kde je opačná logika příkazu a je bližší lidské řeči. Nespornou výhodou Kakoune je oproti Helixu možnost rozšířit aplikaci o pluginy. Proto je Kakoune vhodný pro zkušenější uživatele. Náš web by Ti měl pomoct s prvotním nastavením. Pokud si i tak na tento editor netroufáš Helix, je skvělá náhrada.
+👉 [Kakoune](http://kakoune.org/) je modální editor pro [Linux](http://www.linux.cz/) a [macOS](https://cs.wikipedia.org/wiki/MacOS) jako je třeba [Vim](https://www.vim.org/) či [Neovim](https://neovim.io/). . Z Kakoune vychází také jeden velmi oblíbený modální editor [Helix-editor](https://helix-editor.com/). Jak Kakoune, tak Helix se od Vim a Neovim liší v ovládání, kde je opačná logika příkazu a je bližší lidské řeči. Nespornou výhodou Kakoune je oproti Helixu možnost rozšířit aplikaci o pluginy. Proto je Kakoune vhodný pro zkušenější uživatele. Náš web by Ti měl pomoct s prvotním nastavením. Pokud si i tak na tento editor netroufáš, Helix je skvělá náhrada.
 
-👉 Tato distribuce nefunguje tak, že jen kliknete na tlačítko a nainstaluje se. Vede Tě k samostatné instalaci pomocí tohoto webu. Cílem je pochopit, jak Kakoune funguje, abyste si mohli sami vše modifikovat.
+👉 Tato distribuce nefunguje tak, že jen klikneš na tlačítko a nainstaluje se. Vede Tě k samostatné instalaci pomocí tohoto webu. Cílem je pochopit, jak Kakoune funguje, abyste si mohli sami vše modifikovat.
 
 👉 Toto nastavení je primárně pro vývoj webu, ale není problém si vše přizpůsobit. Inspiroval jsem se pluginy, které jsem využíval ve VSCode a Webstorm.
 
@@ -24,11 +24,11 @@
 
 👉 Témá v Kakoune si jednoduše změníš v command line příkazem `colorscheme` a tlačítkem Tab se budeš přepínat mezi jednotlivými tématy. Command mode, česky příkazový mód, vyvoláš zkratkou **Ctrl + :** .
 
-![Homescreen](https://lukaskanka.cz/index/kakoune/img/home.png) ![Zellij](https://lukaskanka.cz/index/kakoune/img/config.png) ![Command](https://lukaskanka.cz/index/kakoune/img/command.png)
+![Homescreen](http://127.0.0.1:8080/img/home.png) ![Zellij](http://127.0.0.1:8080/img/config.png) ![Command](http://127.0.0.1:8080/img/command.png)
 
 ## Instalace a nastavení:
 
-👉 Pokud ještě nemáš nainstaluj si, [Kakoune](https://lukaskanka.cz/index/kakoune/index.html).
+👉 Pokud ještě nemáš, nainstaluj si, [Kakoune](http://127.0.0.1:8080/?username=luk&password1=55&password2=55#contact).
 
 👉 Nejprve si zálohuj své aktuální nastavení Kakoune!!!
 
@@ -80,11 +80,11 @@ npx live-server
 
 👉 V Kakoune zadej do command line **plug-install**, tím nainstaluješ všechny pluginy. Restartuj Kakoune.
 
-👉 Pokud Ti některý plugin chybí, můžeš ho lehce doinstalovat nebo naopak odinstalovat. Více informací najdeš v Kakoune [dokumentaci](https://github.com/mawww/kakoune#3-basic-interaction) nebo velmi Ti rád poradím viz. [Kontakty](https://lukaskanka.cz/index/kakoune/index.html#contact).
+👉 Pokud Ti některý plugin chybí, můžeš ho lehce doinstalovat nebo naopak odinstalovat. Více informací najdeš v Kakoune [dokumentaci](https://github.com/mawww/kakoune#3-basic-interaction) nebo velmi Ti rád poradím viz. [Kontakty](http://127.0.0.1:8080/?username=luk&password1=55&password2=55#contact).
 
 👉 Pokud některý plugin nechceš používat, stačí ho v souboru **kakrc** zakomentovat pomocí hastagu **#**.
 
-👉 Tuto konfiguraci používám na Linuxu i MacOS.
+👉 Tuto konfiguraci používám na Linuxu i macOS.
 
 ## Plán Kakoune Front-End Power:
 
@@ -115,6 +115,14 @@ npx live-server
 ## Otázky a odpovědi:
 
 👉 Kolik Kakoune stojí? -> Nic, Kakoune je zdarma.
+
+## Registrace
+
+Jméno: 
+
+Heslo: 
+
+Potvrďte heslo: 
 
 ## Kontakty:
 
@@ -147,5 +155,3 @@ npx live-server
 👉 [EndeavourOS Linux](https://endeavouros.com/)
 
 👉 [i3 window manager](https://i3wm.org/)
-
-Copyright © [Lukáš Kaňka](https://git.archoslinux.cz/kankys) 2024
